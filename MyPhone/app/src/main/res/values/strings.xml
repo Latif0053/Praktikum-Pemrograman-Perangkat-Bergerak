@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Phone</string>
+    <string name="phone_name">Samsung Galaxy S22 5G</string>
+    <string name="phone_price">$599.99</string>
+
+    <string name="spec_camera">50 MP Camera</string>
+    <string name="spec_memory">8 GB RAM</string>
+    <string name="spec_battery">3700 mAh</string>
+
+    <string name="description">Smartphone canggih dengan prosesor ngebut, kamera malam jernih, dan desain premium.</string>
+
+    <string name="bookmark">Bookmark</string>
+</resources>
