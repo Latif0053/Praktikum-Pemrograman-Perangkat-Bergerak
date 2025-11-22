@@ -1,3 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">News App</string>
+
+    <string name="news_title">Bitcoin Anjlok ke 84.601 USD</string>
+
+    <string name="news_content">
+Bitcoin kembali mengalami tekanan pada perdagangan Sabtu malam.
+Harga turun 0,29% dan memasuki fase konsolidasi.
+Permintaan jangka panjang tetap kuat namun volatilitas masih tinggi.
+    </string>
+
+    <string name="btn_previous">Sebelumnya</string>
+    <string name="btn_next">Selanjutnya</string>
 </resources>
