@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable news
+drawable news2
+drawable news3
+id btn_next
+id btn_prev
+id img_news
+id scroll_area
+id toolbar
+id txt_content_news
+id txt_title_news
+layout activity_main
+layout layout_toolbar
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_next
+string btn_previous
+string news_content
+string news_title
+style Base.Theme.NewsApp
+style Theme.NewsApp
+xml backup_rules
+xml data_extraction_rules
