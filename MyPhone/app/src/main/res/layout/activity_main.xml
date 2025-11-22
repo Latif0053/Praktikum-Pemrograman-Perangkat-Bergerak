@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_phone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_phone_large"
+        android:contentDescription="Gambar HP" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/phone_name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/phone_price"
+        android:textSize="18sp"
+        android:textColor="@color/teal_700" />
+
+    <ImageView
+        android:id="@+id/icon_camera"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/tv_price"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_camera" />
+
+    <TextView
+        android:id="@+id/tv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon_camera"
+        android:layout_alignTop="@id/icon_camera"
+        android:layout_alignBottom="@id/icon_camera"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="@string/spec_camera" />
+
+    <ImageView
+        android:id="@+id/icon_memory"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/icon_camera"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_memory" />
+
+    <TextView
+        android:id="@+id/tv_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon_memory"
+        android:layout_alignTop="@id/icon_memory"
+        android:layout_alignBottom="@id/icon_memory"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="@string/spec_memory" />
+
+    <ImageView
+        android:id="@+id/icon_battery"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/icon_memory"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_battery" />
+
+    <TextView
+        android:id="@+id/tv_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon_battery"
+        android:layout_alignTop="@id/icon_battery"
+        android:layout_alignBottom="@id/icon_battery"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="@string/spec_battery" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_battery"
+        android:layout_marginTop="24dp"
+        android:text="@string/description"
+        android:justificationMode="inter_word" />
+
+    <Button
+        android:id="@+id/btn_bookmark"      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/bookmark"
+        android:drawableStart="@drawable/ic_bookmark"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+</RelativeLayout>
