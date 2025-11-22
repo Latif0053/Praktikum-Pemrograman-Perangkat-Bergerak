@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">News App</string>
+    <string name="btn_next">Selanjutnya</string>
+    <string name="btn_previous">Sebelumnya</string>
+    <string name="news_content"><![CDATA[
+Bitcoin kembali mengalami tekanan pada perdagangan hari Sabtu malam (22/11), dengan harga terkoreksi ke 84.601 USD, turun 243,5 poin atau -0,29% dibandingkan sesi sebelumnya. Penurunan ini melanjutkan tren melemahan yang terlihat sejak awal November, setelah Bitcoin gagal mempertahankan level psikologis 90.000 USD.
+Meskipun harga saat ini terlihat tertekan, Bitcoin masih mencatat kenaikan signifikan dibandingkan awal tahun, namun jauh dari puncak 126.000 USD yang dicapai beberapa bulan lalu.
+Faktor utama penurunan meliputi aksi ambil untung dari investor besar, ketidakpastian ekonomi global, serta peningkatan distribusi Bitcoin dari para miner. Tekanan jangka pendek ini membuat harga kembali masuk area konsolidasi.
+Meski demikian, prospek jangka panjang Bitcoin masih positif. Permintaan institusional tetap tinggi, adopsi terus berkembang, dan halving berikutnya diperkirakan menjadi katalis kenaikan baru dalam beberapa bulan ke depan.
+Secara teknikal, Bitcoin masih berada dalam tren turun, dengan level support di area 83.000 USD dan resistance di area 88.000 hingga 90.000 USD. Pergerakan beberapa hari ke depan diperkirakan tetap volatil, dipengaruhi sentimen global dan aktivitas pasar crypto.
+]]></string>
+    <string name="news_title">
+        Bitcoin Anjlok ke 84.601 USD, Tekanan Jangka Pendek Meningkat
+    </string>
+    <style name="Base.Theme.NewsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.NewsApp" parent="Base.Theme.NewsApp"/>
+</resources>
