@@ -52,15 +52,16 @@ class MainActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener, Ti
                 override fun onNothingSelected(parent: AdapterView<*>) {}
             }
 
-            // 2. Setup BUTTON DATE PICKER [cite: 54]
+            // 2. Setup BUTTON DATE PICKER
             btnShowCalendar.setOnClickListener {
-                val datePicker = MyDialog.DatePicker()
+                // Panggil langsung nama class barunya
+                val datePicker = MyDatePicker()
                 datePicker.show(supportFragmentManager, "datePicker")
             }
 
-            // 3. Setup BUTTON TIME PICKER [cite: 72]
+            // 3. Setup BUTTON TIME PICKER
             btnShowTimePicker.setOnClickListener {
-                val timePicker = MyDialog.TimePicker()
+                val timePicker = MyTimePicker()
                 timePicker.show(supportFragmentManager, "timePicker")
             }
 
@@ -74,12 +75,9 @@ class MainActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener, Ti
                 builder.create().show()
             }
 
-            // 5. Setup CUSTOM DIALOG [cite: 101]
+            // 5. Setup CUSTOM DIALOG
             btnShowCustomDialog.setOnClickListener {
-                // UBAH DARI: val dialog = DialogExit()
-                // MENJADI:
-                val dialog = MyDialog.DialogExit()
-
+                val dialog = MyExitDialog()
                 dialog.show(supportFragmentManager, "dialogExit")
             }
         }
